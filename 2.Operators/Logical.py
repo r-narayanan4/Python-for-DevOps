@@ -1,4 +1,4 @@
-# Logical AND (and) : This operator returns True if both the operands are true, otherwise, it returns False
+# Logical AND (and) : This operator returns True if both the operands are true, otherwise, it returns False (Boolean Operators)
 
 # Example 1
 x = 5
@@ -50,3 +50,4 @@ if not number == 0:
     print("The number is not zero.")
 else:
     print("The number is zero.")
+
