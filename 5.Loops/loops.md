@@ -95,7 +95,7 @@ for row in matrix:
 1 2 3 
 4 5 6 
 7 8 9 
-```
+
 
 Explanation:
 
@@ -104,6 +104,7 @@ The outer loop iterates over each row in the matrix.
 The inner loop iterates over each element in the current row.
 Inside the inner loop, we print each element of the matrix followed by a space, and use end=" " to prevent a newline after each print statement.
 After printing all elements in a row, we print a newline to move to the next row.
+```
 
 ## Perform different types of iterations
 
@@ -477,3 +478,33 @@ As a result, the value 2 is not printed, and the loop continues with the next it
 Using break and continue statements provides flexibility and control over the execution of loops in Python, allowing you to tailor the behavior of your loops according to specific conditions.
 
 ```
+
+## Difference between While and for
+
+| Feature      | `while` Loop                                                                                                             | `for` Loop                                                                                                                                                                                                                                                                               |
+|--------------|---------------------------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Usage        | Executes a block of code repeatedly as long as a condition is true.                                                       | Iterates over a sequence or any iterable object.                                                                                                                                                                                                                                        |
+| Condition    | Continues iterating until the condition specified becomes false.                                                           | Iterates over each item in the sequence one by one until the sequence is exhausted.                                                                                                                                                                                                      |
+| Evaluation   | The condition is evaluated before each iteration. If false initially, the block of code inside the loop may not execute. | The number of iterations is determined by the number of items in the sequence.                                                                                                                                                                                                           |
+| Known Before | Typically used when the number of iterations is not known beforehand.                                                      | Typically used when the number of iterations is known beforehand or when you need to iterate over a sequence.                                                                                                                                                                           |
+
+## Example for while Loop:
+
+```python
+
+count = 0
+while count < 5:
+    print(count)
+    count += 1
+```
+
+## Example for for Loop:
+
+```python
+
+fruits = ["apple", "banana", "cherry"]
+for fruit in fruits:
+    print(fruit)
+```
+
+These examples demonstrate how while and for loops are used in Python to achieve different types of iterations.
