@@ -86,4 +86,3 @@ These libraries extend Python's capabilities for various automation tasks in the
 | Definition | A module is a single Python file that can be imported. | A library is a collection of modules packaged together. |
 | Usage      | Modules are used to organize code within a project.     | Libraries are used to provide pre-written functionality.|
 | Example    | `os.py`, `sys.py`                                       | Python Standard Library, NumPy, pandas                  |
-
