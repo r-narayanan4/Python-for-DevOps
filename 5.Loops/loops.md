@@ -36,7 +36,7 @@ Explanation:
 
 The `while` loop in Python is used to execute a block of code repeatedly as long as a specified condition is true.
 
-## Syntax
+## Syntaxs
 
 ```python
 while condition:
@@ -53,7 +53,7 @@ while count < 5:
     count += 1
 Output:
 
-Copy code
+
 0
 1
 2
@@ -71,7 +71,7 @@ Inside the loop, we print the current value of count and then increment it by 1.
 
 Nested loops in Python refer to having one loop inside another loop. They are often used to iterate over elements in multi-dimensional data structures like lists of lists.
 
-## Syntax
+## Syntaxss
 
 ```python
 for outer_item in outer_sequence:
@@ -199,8 +199,6 @@ The loop continues until all items in the fruits list have been processed.
 
 ```
 
-
-
 ## Using the range() Function
 
 The range() function in Python is used to generate a sequence of numbers. It is commonly used with the for loop to iterate over a sequence of numbers.
@@ -290,7 +288,7 @@ while index < len(fruits):
 
 # Output:
 
-Copy code
+
 apple
 banana
 cherry
@@ -298,7 +296,7 @@ cherry
 Using either method, you can iterate through sequences to access and process each element individually. The choice between a for loop and a while loop depends on the specific requirements of your code.
 ```
 
-## Expanding Loops with while-else:
+## Expanding Loops with while-else
 
 In Python, you can expand loops with the while-else construct. The else block is executed when the loop completes normally (i.e., when the loop condition becomes False), but it is not executed if the loop is terminated by a break statement.
 
@@ -328,7 +326,7 @@ Inside the loop, the current value of count is printed, and then count is increm
 Once the loop condition becomes False (i.e., when count reaches 5), the else block is executed, printing "Loop completed normally".
 ```
 
-## Expanding Loops with for-else:
+## Expanding Loops with for-else
 
 Similarly, you can expand for loops with the for-else construct. The else block in a for loop is executed when the loop completes normally (i.e., when all items in the sequence have been processed), but it is not executed if the loop is terminated by a break statement.
 
@@ -488,7 +486,7 @@ Using break and continue statements provides flexibility and control over the ex
 | Evaluation   | The condition is evaluated before each iteration. If false initially, the block of code inside the loop may not execute. | The number of iterations is determined by the number of items in the sequence.                                                                                                                                                                                                           |
 | Known Before | Typically used when the number of iterations is not known beforehand.                                                      | Typically used when the number of iterations is known beforehand or when you need to iterate over a sequence.                                                                                                                                                                           |
 
-## Example for while Loop:
+## Example for while Loop
 
 ```python
 
@@ -498,7 +496,7 @@ while count < 5:
     count += 1
 ```
 
-## Example for for Loop:
+## Example for for Loop
 
 ```python
 
